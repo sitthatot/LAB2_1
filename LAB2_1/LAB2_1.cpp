@@ -3,7 +3,9 @@
 int main()
 {
     int number, i = 2;
+    printf("Enter number : ");
     scanf("%d", &number);
+    printf("Factoring Result : ");
     while (number != 1)
     {
         if (number % i == 0)
